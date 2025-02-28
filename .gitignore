@@ -1,0 +1,25 @@
+# Ignore Python cache-files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter Notebook metadata
+.ipynb_checkpoints/
+
+# Ignore virtual enviroments
+venv/
+env/
+.venv/
+
+# Ignore datafiles 
+data/*.csv
+data/*.json
+data/*.xlsx
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore miljøvariabler (hvis du bruger API-nøgler)
+.env
+.DS_Store  # MacOS-specifik
